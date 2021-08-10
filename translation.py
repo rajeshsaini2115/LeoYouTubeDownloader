@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 Hello {} 👋
 
-You are warmly welcome to Leo Youtube Downloader Bot 🇱🇰
+You are warmly welcome to MRKP Youtube Downloader Bot 🇮🇳
 
 In this bot, You can download any youtube video by sending url 😊
 """
@@ -22,26 +22,26 @@ In this bot, You can download any youtube video by sending url 😊
 <b><u>Show Thumbnail</u></b>
 ➠ " /showthumb " මේ command එක යැවීමෙන් ඔයාල ඇඩ් කරපු Thumbnail එක බලාගන්න පුලුවන් 🙂 
 
-Made by @naviya2 🇱🇰
-Support Group : @leosupportx 🇱🇰
-Updates Channel : @new_ehi 🇱🇰
+Made by @rajeshsaini2115 🇮🇳
+Support Group : @mrkphelp 🇮🇳
+Updates Channel : @mrkpbots 🇮🇳
 """
     ABOUT_TEXT = """
-- **Bot :** `Leo YouTube Downloader`
-- **Creator :** [Naviya](https://telegram.me/naviya2)
-- **Updates Channel :** [Leo Updates 🇱🇰](https://telegram.me/new_ehi)
-- **Support Group :** [Leo Support 🇱🇰](https://telegram.me/leosupportx)
+- **Bot :** `MRKP YouTube Downloader`
+- **Creator :** [RAJESH SAINI](https://telegram.me/rajeshsaini2115)
+- **Updates Channel :** [MRKP BOTS 🇮🇳](https://telegram.me/mrkpbots)
+- **Support Group :** [MRKP HELP 🇮🇳](https://telegram.me/mrkphelp)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
+- **Server :** [Heroku](https://whatsapp.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Developer🧑‍💻', url='https://t.me/naviya2'),
-        InlineKeyboardButton('Rate us ★', url='https://t.me/tlgrmcbot?start=leoyoutubedownloaderbot-review')
+        InlineKeyboardButton('Developer🧑‍💻', url='https://t.me/rajeshsaini2115'),
+        InlineKeyboardButton('Share Bot ★', url='https://t.me/mrkpytdlbot?share')
         ],[
-        InlineKeyboardButton('Updates Channel 🗣', url='https://telegram.me/new_ehi'),
-        InlineKeyboardButton('Support Group 👥', url='https://telegram.me/leosupportx')
+        InlineKeyboardButton('Updates Channel 🗣', url='https://telegram.me/mrkpbots'),
+        InlineKeyboardButton('Support Group 👥', url='https://telegram.me/mrkphelp')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -67,15 +67,15 @@ Updates Channel : @new_ehi 🇱🇰
     
 Send your custum thumbnail if required.
 You can use /delthumb to delete the auto-generated thumbnail."""
-    CHECKING_LINK = "<code>Analysing Your Link\n @leoytdowloaderbot 🇱🇰</code>⏳"
+    CHECKING_LINK = "<code>Analysing Your Link\n @mrkpytdlbot 🇮🇳</code>⏳"
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
-    DOWNLOAD_START = "<code>ඩවුන්ලෝඩ් කිරීම ඇරඹුනා🙂...\n@leoytdownloaderbot 🇱🇰</code>"    
+    DOWNLOAD_START = "<code>ඩවුන්ලෝඩ් කිරීම ඇරඹුනා🙂...\n@mrkpytdlbot 🇮🇳</code>"    
     UPLOAD_START = "<code>දැන් Telegram එකට අප්ලෝඩ් වෙන ගමන් පොඩ්ඩක් ඉවසපම් බොම්ක🙂\nමේ මැසේජ් එක ගොඩක් වෙලා තියෙනවනම් ඒකට හේතුව ඔයා thumbnail image එකක් බොට් එකට නොයවපු එක😪\nඒ නිසා බොට් එකට thumbnail image එකක් යවල ආයෙ ලින්ක් එක දාන්න 😊\n\n@leoytdownloaderbot 🇱🇰...</code>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "ඔන්න ඩවුන්ලෝඩ් උනා තත්පර {} ක් ඇතුලත 😏 . \n\nටෙලිග්‍රෑම් එකට අප්ලෝඩ් උනා තත්පර {} ක් ඇතුලත😏"
     RCHD_TG_API_LIMIT = "ඩවුන්ලෝඩ් උනා තත්පර {} ක් ඇතුලත.\nෆයිල් එකේ ප්‍රමාණය: {}\nසමාවෙන්න මට මේ ෆයිල් එක ටෙලිග්‍රෑම් එකට අප්ලෝඩ් කරන්න බැ😪 මොකද ෆයිල් size එක 1.95Gb වලට වඩා මට අප්ලෝඩ් කිරීමට ටෙලිග්‍රෑම් එකෙන් අවසර නැති නිසා😪\nඔයාට යම් කිසි උදව්වක් අවශ්‍යනම් මේ යූසර්නේම් එකට මැසේජ් එකක් දාන්න @naviya2 🇱🇰."
-    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @new_ehi 🇱🇰"
+    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @mrkpbots 🇮🇳"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"
